@@ -1,0 +1,93 @@
+# 🛒 Market Basket Analysis
+
+This project performs Market Basket Analysis on grocery transaction data to discover purchasing patterns and relationships between items using the Apriori algorithm.
+
+---
+
+## 📌 Project Overview
+The goal of this project is to analyze customer purchase behavior and identify:
+
+- Frequently bought items  
+- Association rules between products  
+- Items that are often purchased together  
+
+This helps businesses improve product placement, recommendations, and marketing strategies.
+
+---
+
+## 🧰 Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- mlxtend (Apriori & Association Rules)
+
+---
+
+## ⚙️ Project Workflow
+1. Data loading and exploration  
+2. Data cleaning (handling duplicates and formatting dates)  
+3. Transaction transformation (basket format)  
+4. Frequent itemset generation using Apriori  
+5. Association rules extraction  
+6. Data visualization (Top items & rules)  
+
+---
+
+## 📊 Key Outputs
+- Top 10 most purchased items  
+- Association rules ranked by lift  
+- Support vs Confidence visualization  
+- CSV files with results  
+
+---
+
+## 📂 Project Structure
+```
+
+Market-Basket-Analysis
+│
+├── Untitled32.ipynb      # Main analysis notebook
+├── top_rules.csv         # Top association rules
+├── top_items.csv         # Most purchased items
+└── README.md             # Project documentation
+
+````
+
+---
+
+## ▶️ How to Run
+1. Install dependencies:
+
+```bash
+pip install pandas numpy matplotlib seaborn mlxtend
+````
+
+2. Open the notebook in Jupyter or Google Colab.
+
+3. Run all cells to reproduce the analysis.
+
+---
+
+## 📈 Example Insights
+
+* Certain dairy products are frequently purchased together
+* Snack items show strong association patterns
+* Whole milk acts as a key product in multiple rules
+
+---
+
+## 🚀 Future Improvements
+
+* Build a recommendation system
+* Deploy an interactive dashboard
+* Use larger datasets for deeper insights
+
+---
+
+## 👩‍💻 Author
+
+Huda Alzoubi
+
+If you found this project useful, feel free to ⭐ the repository!
